@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+/* Mobile Version */
+@media only screen and (max-width: 700px) and (min-width: 601px) {
+    
+    main .link a button {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    main .link a button {
+        width: 75vw;
+    }
+
+    footer {
+        flex-wrap: wrap;
+        text-align: center;
+        padding: 2rem;
+    }
+}
