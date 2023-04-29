@@ -15,8 +15,6 @@
     }
 
     footer {
-        flex-wrap: wrap;
-        text-align: center;
         padding: 2rem;
     }
 }
