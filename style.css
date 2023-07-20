@@ -22,14 +22,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.6rem;
     line-height: 3rem;
-    background-color: #161616;
-    color: white;
+    background-color: #282c34; /* Cor base inspirada no uniforme de Hogwarts */
+    color: #fff; /* Texto em branco */
 }
 
 a {
     cursor: pointer;
     text-decoration: none;
-    color: inherit;
+    color: #d1a54c; /* Cor das ligações mágicas */
 }
 
 :root {
@@ -47,15 +47,36 @@ header img {
     width: 20rem;
     border-radius: 50%;
     margin: 1rem;
+    border: 4px solid #d1a54c; /* Cor das ligações mágicas */
 }
 
 header h1 {
     font-size: 2.2rem;
+    color: #d1a54c; /* Cor das ligações mágicas */
 }
 
 header h2 {
     font-size: 1.6rem;
     margin-bottom: 2rem;
+    color: #d1a54c; /* Cor das ligações mágicas */
+}
+
+header p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+    padding: 0rem 1rem;
+    text-align: center;
+    background-color: #d1a54c; /* Cor das ligações mágicas */
+    color: #282c34; /* Cor base inspirada no uniforme de Hogwarts */
+    border-radius: 1.1rem;
+}
+
+header span {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #d1a54c; /* Cor das ligações mágicas */
+    margin-bottom: 1rem;
 }
 
 /* Estilos do conteúdo principal */
@@ -84,24 +105,26 @@ nav a button {
     -webkit-box-align: center;
     -webkit-box-pack: center;
     transition: .2s;
+    color: #d1a54c; /* Cor das ligações mágicas */
 }
 
 nav a i {
     font-size: 2.6rem;
-    color: white;
+    color: #d1a54c; /* Cor das ligações mágicas */
 }
 
 nav a span {
     font-family: var(--font);
     font-size: 1.7rem;
     font-weight: 500;
-    color: white;
+    color: #d1a54c; /* Cor das ligações mágicas */
     margin: 0 auto;
 }
 
 nav a button:hover {
     cursor: pointer;
     transform: scale(1.05);
+    background-color: #5a5a5a; /* Cor mais escura quando hover */
 }
 
 /* Estilos do rodapé */
@@ -109,7 +132,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: white;
+    color: #d1a54c; /* Cor das ligações mágicas */
     text-align: center;
     margin-top: 2rem;
     padding-bottom: 2rem;

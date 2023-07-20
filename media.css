@@ -8,6 +8,11 @@
         width: 15rem; /* Reduz o tamanho da imagem do cabeçalho */
     }
 
+    header p {
+        width: 90vw;
+        text-align: center;
+    }
+
     nav a button {
         width: 90vw; /* Aumenta o tamanho dos botões para ocupar mais a largura */
     }
