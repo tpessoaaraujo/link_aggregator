@@ -1,7 +1,7 @@
 <h1>Agregador de Links</h1>
 <h2>Este é um projeto pessoal de um site agregador de links.</h2>
 
-<p>Você pode acessar o projeto no ar <a href="https://tpessoaaraujo.github.io/link_aggregator/" target="_blank">clicando aqui</a>.
+<p>Aplicação em produção: <a href="https://tpessoaaraujo.github.io/link_aggregator/" target="_blank">clique aqui</a>.
 
 <h3>Tecnologias utilizadas no projeto:</h3>
   <div style="display: inline_block">
