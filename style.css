@@ -78,6 +78,7 @@ header span {
     color: #d1a54c; /* Cor das ligações mágicas */
     margin-bottom: 1rem;
     width: 40vw;
+    text-align: center;
 }
 
 /* Estilos do conteúdo principal */
