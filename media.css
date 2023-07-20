@@ -1,20 +1,25 @@
-@charset "utf-8";
+/* Estilos para telas menores ou iguais a 768px */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 1.4rem; /* Reduz o tamanho da fonte para telas menores */
+    }
 
-/* Mobile Version */
-@media only screen and (max-width: 700px) and (min-width: 601px) {
-    
-    main .link a button {
-        width: 50vw;
+    header img {
+        width: 15rem; /* Reduz o tamanho da imagem do cabeçalho */
+    }
+
+    nav a button {
+        width: 90vw; /* Aumenta o tamanho dos botões para ocupar mais a largura */
     }
 }
 
-@media only screen and (max-width: 600px) {
-    
-    main .link a button {
-        width: 75vw;
+/* Estilos para telas menores ou iguais a 576px */
+@media screen and (max-width: 576px) {
+    header h1 {
+        font-size: 2rem; /* Reduz o tamanho do título principal */
     }
 
-    footer {
-        padding: 2rem;
+    header h2 {
+        font-size: 1.4rem; /* Reduz o tamanho do sub-título */
     }
 }
