@@ -1,11 +1,11 @@
 /* Estilos para telas menores ou iguais a 768px */
 @media screen and (max-width: 768px) {
     body {
-        font-size: 1.4rem; /* Reduz o tamanho da fonte para telas menores */
+        font-size: 1.4rem;
     }
 
     header img {
-        width: 15rem; /* Reduz o tamanho da imagem do cabeçalho */
+        width: 17rem;
     }
 
     header p {
@@ -13,33 +13,23 @@
         text-align: center;
     }
 
-    header span {
-        font-size: 1.2rem;
-        width: 90vw;
-    }
-
     nav a button {
-        width: 90vw; /* Aumenta o tamanho dos botões para ocupar mais a largura */
+        width: 80vw;
     }
 }
 
 /* Estilos para telas menores ou iguais a 576px */
 @media screen and (max-width: 576px) {
     header h1 {
-        font-size: 2rem; /* Reduz o tamanho do título principal */
+        font-size: 2.2rem;
     }
 
     header h2 {
-        font-size: 1.4rem; /* Reduz o tamanho do sub-título */
+        font-size: 1.4rem;
     }
 
     header p {
         width: 90vw;
         text-align: center;
-    }
-
-    header span {
-        font-size: 1.2rem;
-        width: 90vw;
     }
 }
